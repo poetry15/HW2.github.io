@@ -16,7 +16,7 @@ function updateProgress(){
         setTimeout(updateProgress, 700); // 增加 setTimeout 的觸發頻率
     }
     else {
-        // window.location.href = "https://www.ubereats.com/tw";
+        window.location.href = "https://www.ubereats.com/tw";
     }
 }
 

@@ -7,7 +7,6 @@ function updateProgress(){
     img.style.minWidth = '50px';
     img.style.minHeight = 'auto';
     progressBar.style.minHeight = '10px';
-    progressBar.style.minWidth = 'auto';
     progress += 1;
     img.style.left = progressBar.offsetWidth - img.offsetWidth/2+ 'px';
     progressBar.style.width = progress+'%';

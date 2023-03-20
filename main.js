@@ -4,8 +4,8 @@ const waitCountElem = document.querySelector('.waiting-count');
 let progress = 0;
 const totalWaitCount = Math.floor(Math.random()*1000);
 function updateProgress(){
-    img.style.minWidth = '53px';
-    img.style.minHeight = '50px';
+    img.style.minWidth = '50px';
+    img.style.minHeight = 'auto';
     progressBar.style.minHeight = '10px';
     progress += 1;
     img.style.left = progressBar.offsetWidth - img.offsetWidth/2+ 'px';

@@ -37,7 +37,6 @@ html {
     border-radius: 10px;
     transition: width 1s ease;
     transform: translateZ(0);
-    will-change: width;
 }
 
 .container {

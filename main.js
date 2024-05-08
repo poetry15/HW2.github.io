@@ -13,7 +13,7 @@ function updateProgress(){
     const remainingWaitCount = Math.floor(totalWaitCount * progress / 100);
     waitCountElem.innerText = `目前還有 ${totalWaitCount-remainingWaitCount} 個人正在等待進入\n\n請勿跳轉頁面`;
     if (progress < 100) {
-        setTimeout(updateProgress, 100); // 增加 setTimeout 的觸發頻率
+        setTimeout(updateProgress, 10); // 增加 setTimeout 的觸發頻率
     }
     else {
         window.location.href = "https://www.ubereats.com/tw";
